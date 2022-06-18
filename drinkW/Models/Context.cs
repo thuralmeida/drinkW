@@ -10,5 +10,6 @@ namespace drinkW.Models
         }
 
         public DbSet<Recipiente> Recipiente { get; set; }
+        public DbSet<Consumo> Consumo { get; set; }
     }
 }
